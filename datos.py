@@ -24,7 +24,7 @@ def descargar_precios(tickers, fecha_inicio, fecha_fin):
     -------
     DataFrame con precios ajustados.
     """
-    data = yf.download(tickers, start=fecha_inicio, end=fecha_fin)["Adj Close"]
+    data = yf.download(tickers, start=fecha_inicio, end=fecha_fin)["Close"]
 
     # Si solo hay un ticker, yfinance devuelve una Serie
     if isinstance(data, pd.Series):
