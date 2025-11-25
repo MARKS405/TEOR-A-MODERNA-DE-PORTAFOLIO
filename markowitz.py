@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from scipy.optimize import minimize
 import matplotlib.pyplot as plt
-from utils.helpers import returns_from_prices
+from helpers import returns_from_prices
 
 def portfolio_variance(w, cov):
     return w.T @ cov @ w
