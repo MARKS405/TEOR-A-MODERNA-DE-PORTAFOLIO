@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from modules.markowitz import markowitz_view
-from modules.downside import downside_view
-from modules.robust import robust_view
-from utils.helpers import load_sample_data
+from markowitz import markowitz_view
+from downside import downside_view
+from robust import robust_view
+from helpers import load_sample_data
 
 st.set_page_config(page_title="Optimizador de Portafolios - TMP", layout="wide")
 st.title("Optimizador de Portafolios — basado en la Teoría Moderna de Portafolio")
