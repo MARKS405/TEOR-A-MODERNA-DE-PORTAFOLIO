@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from utils.helpers import returns_from_prices
+from helpers import returns_from_prices
 import matplotlib.pyplot as plt
 from scipy.optimize import minimize
 
