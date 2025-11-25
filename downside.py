@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from scipy.optimize import minimize
 import matplotlib.pyplot as plt
-from utils.helpers import returns_from_prices
+from helpers import returns_from_prices
 
 def semivariance(returns, target=0.0):
     # returns: series or array of returns (not annualized)
